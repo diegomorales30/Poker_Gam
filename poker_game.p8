@@ -7,9 +7,9 @@ end
 
 function _draw()
     map()
+    -- created box for tokens
     line(0,63,128,63,8)
-    line(100,63,100,90,8)
-    line(100,63,100,128,4)
+    rect(100,63,128,90)
 end
 
 function _update()
